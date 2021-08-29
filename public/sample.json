@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": null,
+            "title": "The Takeout Podcast: A CBS News original political podcast",
+            "description": "CBS News’ Chief Washington correspondent Major Garrett hosts The Takeout, your weekly dive into politics, policy and pop culture.",
+            "url": "https://www.cbsnews.com/news/political-podcast-the-takeout/",
+            "urlToImage": "https://cbsnews2.cbsistatic.com/hub/i/r/2019/01/29/838fa891-6db5-48c2-bf8f-3b65badb69a3/thumbnail/1200x630/4930e9dc1d791bfc42ef8c86e5f06e79/2019-takeout-podcast-square1-3000x3000.jpg",
+            "publishedAt": "2021-08-27T11:31:00+00:00",
+            "content": "Two-time Oscar-nominated filmmaker Lucy Walker joins Major to discuss her latest documentary, \"Bring Your Own Brigade.\" The film captures the horror and heroism of the deadliest week of wildfires in … [+25963 chars]"
+        },
+        {
+            "source": {
+                "id": "australian-financial-review",
+                "name": "Australian Financial Review"
+            },
+            "author": "Phillip Coorey",
+            "title": "Morrison plays the politics of freedom",
+            "description": "There’s an undeniable shift away from the idea that lockdowns are the answer to the pandemic, and the Prime Minister is trying to corral the states into the same mindset.",
+            "url": "http://www.afr.com/politics/federal/morrison-steps-up-for-freedom-20210827-p58me6",
+            "urlToImage": "https://static.ffx.io/images/$zoom_0.1711%2C$multiply_4%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_38/t_crop_custom/c_scale%2Cw_800%2Cq_88%2Cf_jpg/t_afr_analysis_no_age_social_wm/023853bd438efc3709bfb66838fefabdee55dadc",
+            "publishedAt": "2021-08-27T05:58:01Z",
+            "content": "But today, with those nations by virtue of necessity having much higher vaccination rates than Australia, they are living with COVID-19, tolerating deaths and illnesses among the unvaccinated, while … [+6015 chars]"
+        },
+        {
+            "source": {
+                "id": "the-washington-times",
+                "name": "The Washington Times"
+            },
+            "author": "The Washington Times http://www.washingtontimes.com",
+            "title": "Latest Quizzes",
+            "description": "Take a break from the hard news of the day and enjoy a quiz on entertainment, sports, history and politics only from The Washington Times.",
+            "url": "https://www.washingtontimes.com/quiz/",
+            "urlToImage": null,
+            "publishedAt": "2021-02-10T03:52:37.2719772Z",
+            "content": "Featured Quizzes\r\nAttention all William Shakespeare experts. Pinpoint the prose's origin plucked from one of his many famous plays in this multiple-choice challenge.\r\n Shares \r\nName these legendary c… [+32652 chars]"
+        },
+        {
+            "source": {
+                "id": "the-jerusalem-post",
+                "name": "The Jerusalem Post"
+            },
+            "author": null,
+            "title": "Congresswoman Nita Lowey: I am proud to stand with Israel",
+            "description": "Gantz: Security of Israel is above politics; PA: This is a crime.",
+            "url": "https://www.jpost.com/Arab-Israeli-Conflict/Gantz-Security-of-Israel-is-above-politics-Palestinians-This-is-a-crime-607595",
+            "urlToImage": "https://images.jpost.com/image/upload/f_auto,fl_lossy/t_Article2016_ControlFaceDetect/448812",
+            "publishedAt": "2019-11-13T04:41:00Z",
+            "content": "US Ambassador David M. Friedman said the US stands “with our friend and ally Israel at this critical moment” on social media on Tuesday after roughly 170 rockets were fired on Israel from the Gaza St… [+6160 chars]"
+        }
+    ]
+}

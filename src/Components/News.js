@@ -6,21 +6,42 @@ export class News extends Component {
         super();
         this.state = {
             articles : [],
-            loading : false
+            loading : false,
+            page:1
         }
     }
     async componentDidMount(){
-        let url = "https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=a855a0f476ac4aedbeaad30ed365ac91";
+        let url = `https://node.mihirwaykole.repl.co/${this.state.page}`
         let data = await fetch(url)
         let parsedData = await data.json()
         console.log(parsedData)
         this.setState({articles : parsedData.articles})
     }
+    HandlePrevClick = async() => {
+        let url = `https://node.mihirwaykole.repl.co/${this.state.page}`
+        let data = await fetch(url)
+        let parsedData = await data.json()
+        console.log(parsedData)
+        this.setState({
+            page:this.state.page + 1,
+            articles : parsedData.articles
+        })
+    }
+    HandleNextClick = async() => {
+        console.log("clickd")
+        let url = `https://node.mihirwaykole.repl.co/${this.state.page+1}`
+        let data = await fetch(url)
+        let parsedData = await data.json()
+        this.setState({
+            page:this.state.page - 1,
+            articles : parsedData.articles
+        })
+    }
     render() {
         return (
-            <div className="container my-3">
+            <div className="container my-3 ">
                 <h2>News-Today - Top Headlines only for You!</h2>
-                <div className="row">
+                <div className="row d-flex justify-content-center">
                     {this.state.articles.map((element)=>{
                         if (element.urlToImage) {
                             return <div className="col-md-3" key={element.url}>
@@ -30,7 +51,13 @@ export class News extends Component {
                     })}
                     
                 </div>
+                <div className="container">
+                <div class="d-flex justify-content-around">
 
+                <button type="button" disabled={this.state.page<=1} class="btn btn-dark" onClick={this.HandlePrevClick}>&larr; Previous</button>
+                <button type="button"  class="btn btn-dark" onClick={this.HandleNextClick}>Next &rarr;</button>
+                </div>
+                </div>
             </div>
         )
     }

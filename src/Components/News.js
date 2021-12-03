@@ -10,7 +10,7 @@ export class News extends Component {
         }
     }
     async componentDidMount() {
-        let url = `https://node.mihirwaykole.repl.co/`
+        let url = `https://newsapi.org/v2/everything?q=tesla&from=2021-11-03&sortBy=publishedAt&apiKey=API_KEY`
         let data = await fetch(url)
         let parsedData = await data.json()
         console.log(parsedData)
